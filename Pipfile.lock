@@ -1,0 +1,28 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "d75dc0e71d8fcad82ec8f437590317511fdc07ef93e613f5697db23c3ff64ec6"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.10"
+        },
+        "sources": [
+            {
+                "name": "pip_conf_index_global",
+                "url": "https://pypi.org/simple/",
+                "verify_ssl": false
+            }
+        ]
+    },
+    "default": {
+        "kotlin-jupyter-kernel": {
+            "hashes": [
+                "sha256:4ed727f79be9010cfacc5a58c4056b459de60be573f61c3b4f6ca0a7413d7737"
+            ],
+            "index": "pip_conf_index_global",
+            "version": "==0.11.0.385"
+        }
+    },
+    "develop": {}
+}

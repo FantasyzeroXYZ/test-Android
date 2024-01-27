@@ -22,3 +22,6 @@
     * 在设置里搜索code-runner.runInTerminal并勾选上
   * 配置jupyter
     * https://github.com/Kotlin/kotlin-jupyter
+    * 创建虚拟环境`pipenv install`
+    * 安装kotlin-jupyter-kernel`pipenv install kotlin-jupyter-kernel`
+    * 创建ipynb文件并选择kotlin内核
