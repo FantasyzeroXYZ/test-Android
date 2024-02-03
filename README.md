@@ -1,11 +1,15 @@
 # test-Android
 * 环境搭建
+  * JDK
+  * Android SDK
+  * Android studio 
+    * 下载 https://developer.android.com/studio?hl=zh-cn
+    * 安装
+    * 配置
+    * 插件
+      * 汉化
 * vscode插件
 * 网站
-* Android studio 
-  * 下载 https://developer.android.com/studio?hl=zh-cn
-  * 安装
-  * 配置
 * kotlin
   * 官网 https://kotlinlang.org/
   * 想使用Kotlin必须安装JDK
