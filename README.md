@@ -7,7 +7,9 @@
     * 安装
     * 配置
     * 插件
-      * 汉化
+      * 中文语言包 https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----
+        * 查看安装的Android studio版本再选择对应的中文语言包安装
+        * 设置
 * vscode插件
 * 网站
 * kotlin
