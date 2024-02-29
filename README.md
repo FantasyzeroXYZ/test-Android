@@ -10,9 +10,26 @@
     * 安装
     * 配置
     * 插件
-      * 中文语言包 https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----
-        * 查看安装的Android studio版本再选择对应的中文语言包安装
-        * 设置
+      * 界面汉化
+        1. 查看安装的Android studio版本再选择对应的中文语言包下载
+          * 确定Android studio版本
+            * Help->About
+            * 查看Build#AI前三位
+          * 选择对应的中文语言包
+            * 中文语言包 https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----
+            * 将Android studio里查看到的Build#AI前三位在页面进行`ctrl+F`搜索
+        2. 安装下载好的中文语言包
+          * File(文件)->Settings(设置)
+          * Plugins(插件)->install Plugin form Disk(从磁盘安装插件)
+          * 在路径里选择下载好的中文语言包
+        3. 重启Android studio
+    * [ ] 配置git
+      * Version control(版本控制)
+      * (设置)->github
+      * (设置)->git
+      * 提交到现有仓库
+      * 新建仓库
+      * 退出GitHub账号
 * vscode插件
 * 网站
 * kotlin
