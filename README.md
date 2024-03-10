@@ -40,16 +40,26 @@
       * 项目文件app->src->main->res->layout下的xml文件
     * [ ] Android studio卡顿解决方案
     * [ ] Design editor is unavailable until after a successful project sync？
-    * [ ] Gradle？
+    * Gradle
       * 配置国内镜像
         * 项目文件gradle->wrapper->gradle-wrapper.properties
         * 替换`distributionUrl=`后面的内容
           * 将`https\://services.gradle.org/distributions/`替换成`https://mirrors.cloud.tencent.com/gradle/`
-      * 下载对应版本替换
+      * [ ] 下载对应版本替换
         * 官方下载 https://services.gradle.org/distributions/
         * 国内镜像下载 https://mirrors.cloud.tencent.com/gradle/
     * [ ] 可视化添加
       * 打开实时预览
+* Android studio练习
+  * [ ] 理清项目文件结构
+  * 在button的xml中增加`android:gravity="center"`即可实现文字水平居中
+  * 更改button背景颜色`android:backgroundTint="@android:color/background_dark"`
+  * [ ] 参考 https://blog.csdn.net/nuanpang/article/details/125847905
+  * xml布局
+    * Button
+    * EditText
+    * TextView
+  * 插入图片
 * vscode插件
 * 网站
 * kotlin
