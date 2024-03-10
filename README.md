@@ -8,7 +8,6 @@
   * Android studio 
     * 下载 https://developer.android.com/studio?hl=zh-cn
     * 安装
-    * 配置
     * 插件
       * 界面汉化
         1. 查看安装的Android studio版本再选择对应的中文语言包下载
@@ -23,6 +22,10 @@
           * Plugins(插件)->install Plugin form Disk(从磁盘安装插件)
           * 在路径里选择下载好的中文语言包
         3. 重启Android studio
+        * 取消汉化
+          1. 文件->设置->插件
+          2. 取消勾选汉化插件
+          3. 应用，重新启动IDE 
     * [ ] 配置git
       * Version control(版本控制)
       * (设置)->github
@@ -30,6 +33,23 @@
       * 提交到现有仓库
       * 新建仓库
       * 退出GitHub账号
+    * [ ] 创建新项目
+    * [ ] 构建
+    * [ ] Run/Debug Configurations(运行/调试配置)？
+    * [ ] 实时预览
+      * 项目文件app->src->main->res->layout下的xml文件
+    * [ ] Android studio卡顿解决方案
+    * [ ] Design editor is unavailable until after a successful project sync？
+    * [ ] Gradle？
+      * 配置国内镜像
+        * 项目文件gradle->wrapper->gradle-wrapper.properties
+        * 替换`distributionUrl=`后面的内容
+          * 将`https\://services.gradle.org/distributions/`替换成`https://mirrors.cloud.tencent.com/gradle/`
+      * 下载对应版本替换
+        * 官方下载 https://services.gradle.org/distributions/
+        * 国内镜像下载 https://mirrors.cloud.tencent.com/gradle/
+    * [ ] 可视化添加
+      * 打开实时预览
 * vscode插件
 * 网站
 * kotlin
