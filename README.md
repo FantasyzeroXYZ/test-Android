@@ -30,9 +30,19 @@
       * Version control(版本控制)
       * (设置)->github
       * (设置)->git
-      * 提交到现有仓库
-      * 新建仓库
-      * 退出GitHub账号
+      * 在Android studio里授权登录GitHub
+        1. 左上角`Version control`->Share Project On->github或者
+        2. 登录github进行授权
+        3. 提交到仓库
+           * 新建仓库
+           * 现有仓库提交方式？
+    * [ ] 配置gitee
+      * [ ] 安装gitee插件
+        * https://plugins.jetbrains.com/plugin/11491-gitee
+    * [ ] 退出GitHub账号
+      1. File->Setting
+      2. Version Control->github或者直接在搜索栏搜索`github`
+      3. 选择账户进行移除
     * [ ] 创建新项目
     * [ ] 构建
     * [ ] Run/Debug Configurations(运行/调试配置)？
@@ -50,6 +60,8 @@
         * 国内镜像下载 https://mirrors.cloud.tencent.com/gradle/
     * [ ] 可视化添加
       * 打开实时预览
+* [ ] 安卓测试
+  * [ ] 云真机
 * Android studio练习
   * [ ] 理清项目文件结构
   * 在button的xml中增加`android:gravity="center"`即可实现文字水平居中
