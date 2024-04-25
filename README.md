@@ -78,6 +78,7 @@
   * 官网 https://kotlinlang.org/
   * 想使用Kotlin必须安装JDK
   * 下载kotlin编译器 https://github.com/JetBrains/kotlin/releases
+  * 在线运行代码 https://play.kotlinlang.org/
   * 配置环境变量
     * KOTLIN_HOME 文件所在路径
     * 在Path里添加%KOTLIN_HOME%\bin
