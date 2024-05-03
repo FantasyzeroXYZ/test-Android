@@ -1,6 +1,19 @@
 # Android待办事项
 * [ ] 
 
+# 资源待整理
+* 关键词
+	* Android studio
+* Awesome Android https://github.com/JStumpp/awesome-android
+* 安卓面试
+  * Awesome-Android-Interview https://github.com/JsonChao/Awesome-Android-Interview
+* UI库
+  * awesome-github-android-ui https://github.com/opendigg/awesome-github-android-ui
+  * List of Android UI/UX Libraries https://github.com/wasabeef/awesome-android-ui
+* Android Studio插件
+  * Android Studio Plugins https://github.com/balsikandar/Android-Studio-Plugins
+  * Android Studio插件 https://github.com/szqcharles/Android-Studio-Plugins-cn
+  * TranslationPlugin（IDE文档翻译插件） https://github.com/YiiGuxing/TranslationPlugin
 # test-Android
 * 环境搭建
   * JDK
@@ -94,3 +107,40 @@
     * 创建虚拟环境`pipenv install`
     * 安装kotlin-jupyter-kernel`pipenv install kotlin-jupyter-kernel`
     * 创建ipynb文件并选择kotlin内核
+
+
+# Android studio 
+* 1
+  * 创建Activity
+  * 创建布局文件xml
+    * 放置组件
+      * button
+        * https://blog.csdn.net/pan2635376816/article/details/116789912
+  * 在Activity里加载布局
+    * setContentView(R.layout.布局文件名称)
+  * `android:exported="true"`
+  * 添加<intent-filter>的内容设置主Activity
+    ```
+    <activity
+        android:name=".MainActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    ```
+  * 控件
+    * textview文本内容输入
+      * android:text="输入文本内容"
+    * imageview
+      * 设置图片显示
+        * android:src="@res文件夹下的对应图片路径"
+      * 图片导入
+    * drawable或mipmap文件夹存放图片的区
+* 主要方向
+  * 页面切换
+  * 功能调用
+* [ ] 导入已有工程
+  * File->open
+* [ ] 使用本地gradle的配置
