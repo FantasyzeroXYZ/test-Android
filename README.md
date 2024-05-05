@@ -144,6 +144,7 @@
     * `git config user.name 'CrazyNPC'`
     * `git config user.email '1035203852@qq.com'`
   * `git config -l`查看 按q退出
+  * 编辑配置`git config --edit`
 
 * 界面设计
   * 布局(xml布局文件)
