@@ -107,7 +107,43 @@
 * [ ] Android studio卡顿解决方案
 * [ ] Design editor is unavailable until after a successful project sync？
 
-
+* gitee
+  * 创建分支
+    * 分支起点
+  * [ ] 克隆分支
+    * `git clone -b 分支名 仓库URL`
+  * [ ] 推送分支
+    * `git push -u 远程仓库的别名 本地分支名称:远程分支名称`
+  * 查看当前分支`git branch`
+  * 配置
+    * `ssh-keygen -t rsa -f C:/Users/用户名/.ssh/id_rsa_gitee -C "邮箱"`
+    * `ssh-keygen -t rsa -f C:/Users/10352/.ssh/id_rsa_gitee -C "1035203852@qq.com"`
+    * `ssh-keygen -t ed25519 -f C:/Users/10352/.ssh/id_ed25519_github -C "fantasyzeroxyz@gmail.com"`
+  * 清除账户全局配置
+    * `git config --global --unset user.name "用户名"`
+      * `git config --global --unset user.name "FantasyzeroXYZ"`
+    * `git config --global --unset user.email "用户邮箱"`
+      * `git config --global --unset user.email "fantasyzeroxyz@gmail.com"`
+  * 让SSH识别新的私钥
+    * 移动到.ssh目录下
+    * 输入如下命令
+      * `ssh-agent bash`
+      * `ssh-add .\id_ed25519_github`
+      * `ssh-add .\id_rsa_gitee`
+  * 配置.ssh里的config文件
+    * 添加上一行`IdentityFile 对应私钥文件地址`
+      * `IdentityFile ~/.ssh/id_ed25519_github`
+  * 查看私钥pub文件内容添加到相应网站
+    * `cat 私钥pub文件`
+      * `cat .\id_rsa_gitee.pub`
+  * 测试是否连接成功
+    * `ssh -T -p 443 git@ssh.github.com`
+    * `ssh -T git@ssh.gitee.com`
+  * 单独对仓库设置账号
+    * 在仓库目录下`cd .git`
+    * `git config user.name 'CrazyNPC'`
+    * `git config user.email '1035203852@qq.com'`
+  * `git config -l`查看 按q退出
 
 * 界面设计
   * 布局(xml布局文件)
