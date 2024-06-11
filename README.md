@@ -106,11 +106,13 @@
 * [ ] Run/Debug Configurations(运行/调试配置)？
 * [ ] Android studio卡顿解决方案
 * [ ] Design editor is unavailable until after a successful project sync？
-
+* 插件安装
+  * 在线
+  * 离线包 https://plugins.jetbrains.com/
 * gitee
   * 创建分支
     * 分支起点
-  * [ ] 克隆分支
+  * 克隆分支
     * `git clone -b 分支名 仓库URL`
   * [ ] 推送分支
     * `git push -u 远程仓库的别名 本地分支名称:远程分支名称`
@@ -145,7 +147,16 @@
     * `git config user.email '1035203852@qq.com'`
   * `git config -l`查看 按q退出
   * 编辑配置`git config --edit`
-
+* 添加注释
+  * /** 注释内容 **/
+* 加载布局
+  * `setContentView(R.layout.布局文件)`
+* 加载对应id
+  * `val 变量名 = findViewById<view类>(R.id.对应id名称)`
+    * view类,例如按钮为Button
+* [ ] 生成apk
+  * 参考 https://blog.csdn.net/m0_62404144/article/details/127161171
+* [ ] 添加在AndroidManifest.xml添加权限
 * 界面设计
   * 布局(xml布局文件)
     * 类型
@@ -163,6 +174,23 @@
     * EditText
     * TextView
     * 插入图片
+
+* 要点
+  * AndroidManifest.xml添加权限
+    ```
+        <uses-feature
+            android:name="android.hardware.telephony"
+            android:required="false" />
+        <uses-permission android:name="android.permission.CALL_PHONE"/>
+    ```
+  * 在AndroidManifest.xml的activity里添加intent-filter以设置默认activity
+    * ```
+      <intent-filter>
+          <action android:name="android.intent.action.MAIN"/>
+          <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      ```
+
 
 * Android studio练习
   * [ ] 理清项目文件结构
